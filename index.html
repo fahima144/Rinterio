@@ -23,10 +23,11 @@
               theme: {
                 extend: {
                   colors: {
-                    primary: 'rgb(171, 239, 95)',
-                    mine_shaft: 'rgb(33, 33, 33)',
-                    dove_gray: 'rgb(115, 115, 115)',
-                    charcoal: 'rgb(73, 73, 73)' 
+                    primary: '#ABEF5F',
+                    mine_shaft: '#212121',
+                    dove_gray: '#737373',
+                    charcoal: '#494949',
+                    cod_gray: '#F4F4F4' 
                   }
                 }
               }
@@ -106,8 +107,45 @@
                     <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 bg-primary"></i>
                 </button>
             </section>
-
+            <!-- banner section ended -->
         </header>
+        
+        <main>
+            <!-- about us section started -->
+            <section class="bg-cod_gray mt-24 relative">
+                <img class="absolute hidden lg:block left-64 top-9" src="assets/Vector.png" alt="">
+                <div class="max-w-screen-xl relative mx-3 md:mx-6 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 py-24 gap-14">
+                    <div class="flex flex-col gap-6">
+                        <div class="flex justify-center md:justify-start">
+                            <button class="bg-[#ffffff] w-fit rounded-full px-4 py-2 text-charcoal font-bold text-base lg:mb-4">
+                                <i class="fa-solid fa-arrow-right "></i> 
+                                About Us  
+                            </button>
+                        </div>
+                        <h1 class="text-center md:text-left font-bold lg:text-[40px] text-2xl md:text-5xl lg:mb-6 mb-0 text-mine_shaft">We design thoughtful, <br> liveable spaces</h1>
+                        <p class="text-center md:text-left font-medium lg:text-base text-sm text-charcoal">The barn house captivates with its blend of rustic charm and <br>  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        <div class="flex flex-col md:flex-row lg:flex-col gap-6">
+                            <div class="flex items-center bg-white p-5 md:p-6 rounded-2xl gap-6">
+                                <img src="assets/commercial.png" alt="">
+                                <div>
+                                    <h3 class="font-extrabold text-xl lg:mb-3 text-charcoal">Commercial</h3>
+                                    <p class="font-medium text-base text-dove_gray">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center bg-white p-5 md:p-6 rounded-2xl gap-6">
+                                <img src="assets/residential.png" alt="">
+                                <div>
+                                    <h3 class="font-extrabold text-xl lg:mb-3 text-charcoal">Residential</h3>
+                                    <p class="font-medium text-base text-dove_gray">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="w-full h- [223px] md:[385px] lg:[560.67px]" src="assets/Rectangle.png" alt="">
+                </div>
+            </section>
+            <!-- about us section ended -->
+        </main>
         
     </body>
 </html>
